@@ -32,6 +32,7 @@ class BoardsController < ApplicationController
 
     redirect_to boards_path
   end
+  #
 
   private
 
