@@ -14,6 +14,7 @@ class BoardsController < ApplicationController
     redirect_to board
   end
 
+  # findメソッド削除
   def show
   end
 
