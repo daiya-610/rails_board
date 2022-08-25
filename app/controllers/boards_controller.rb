@@ -14,7 +14,7 @@ class BoardsController < ApplicationController
     redirect_to board
   end
 
-  # findメソッド削除
+  # findメソッド削除,リファクタリング
   def show
   end
 
