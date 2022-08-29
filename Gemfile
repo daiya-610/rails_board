@@ -32,8 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap', '~> 4.0.0'
 gem 'mini_racer'
-gem 'kaminari'
-gem 'tzinfo', '>= 1.2.10', '< 2.0.0'
+gem 'kaminari', git: 'https://github.com/kaminari/kaminari'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
