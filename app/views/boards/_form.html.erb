@@ -2,7 +2,7 @@
     <div class="alert alert-danger">
         <ul>
             <% flash[:error_messages].each do |msg| %>
-                <li></li>
+                <li><%= msg %></li>
             <% end %>
         </ul>
     </div>
