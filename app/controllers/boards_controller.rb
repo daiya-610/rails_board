@@ -24,6 +24,7 @@ class BoardsController < ApplicationController
 
   # findメソッド削除,リファクタリング
   def show
+    @comment = @board.comments.new
   end
 
   def edit
