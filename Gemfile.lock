@@ -42,8 +42,8 @@ GEM
       activerecord (>= 3.2, < 8.0)
       rake (>= 10.4, < 14.0)
     arel (7.1.4)
-    autoprefixer-rails (10.4.7.0)
-      execjs (~> 2)
+    autoprefixer-rails (8.6.5)
+      execjs
     bindex (0.8.1)
     bootstrap (4.0.0)
       autoprefixer-rails (>= 6.0.3)
@@ -190,6 +190,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
+  autoprefixer-rails (= 8.6.5)
   bootstrap (~> 4.0.0)
   byebug
   coffee-rails (~> 4.2)
