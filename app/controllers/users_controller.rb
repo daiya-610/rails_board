@@ -17,12 +17,11 @@ class UsersController < ApplicationController
   end
 
   def me
-    binding.pry
   end
 
   private
 
-  def user_params
+  def user_params¥
     params.require(:user).permit(:name, :password, :password_confirmation)
   end
 end
